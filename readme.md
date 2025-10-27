@@ -31,6 +31,7 @@ python run_clinical_conversation.py \
 
 ## Original Paper
 
+```
 @article{kim2025aligning,
   title={Aligning large language models for cognitive behavioral therapy: a proof-of-concept study},
   author={Kim, Yejin and Choi, Chi-Hyun and Cho, Selin and Sohn, Jy-yong and Kim, Byung-Hoon},
@@ -40,8 +41,10 @@ python run_clinical_conversation.py \
   year={2025},
   publisher={Frontiers}
 }
+```
 
 ## Implementation Repository
+```
 @software{kim2025llm4cbt,
   author       = {Lee, Christine Cheeun and Kim, Yejin and Choi, Chi-Hyun and Cho, Selin and Sohn, Jy-yong and Kim, Byung-Hoon},
   title        = {LLM4CBT: Reference Implementation for "Aligning Large Language Models for Cognitive Behavioral Therapy"},
@@ -51,3 +54,4 @@ python run_clinical_conversation.py \
   url          = {https://github.com/Yonsei-ITML/LLM4CBT},
   note         = {GitHub repository implementing the methods described in Kim et al. (2025), *Frontiers in Psychiatry*}
 }
+```
