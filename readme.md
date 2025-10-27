@@ -46,7 +46,7 @@ python run_clinical_conversation.py \
 ## Implementation Repository
 ```
 @software{kim2025llm4cbt,
-  author       = {Lee, Christine Cheeun and Kim, Yejin and Choi, Chi-Hyun and Cho, Selin and Sohn, Jy-yong and Kim, Byung-Hoon},
+  author       = {Kim, Yejin and Choi, Chi-Hyun and Cho, Selin and Sohn, Jy-yong and Kim, Byung-Hoon},
   title        = {LLM4CBT: Reference Implementation for "Aligning Large Language Models for Cognitive Behavioral Therapy"},
   year         = {2025},
   version      = {v1.0.0},
