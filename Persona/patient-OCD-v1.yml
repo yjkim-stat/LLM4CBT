@@ -1,0 +1,30 @@
+API_input:
+  model: gpt-4-0125-preview
+  temperature: 1
+Input:
+  AUTOMATIC_THOUGHT: If I don't check the neck-tie several times, something terrible
+    will happen.
+  DESCRIPTION: Before a crucial game, the speaker feels the weight of the impending
+    match and battles internal superstitions, believing their neck-tie, adjusted four
+    times as a ritual, acts as a talisman against defeat. This meticulous act is a
+    desperate hope for victory, revealing the speaker's nervousness and reliance on
+    this routine for confidence.
+  PATIENT_AGE: '30'
+  PATIENT_GENDER: Male
+  PATIENT_OCCUPATION: Professional_Coach
+  REACTION: Every time I go to the field, I fix my neck-tie for 4 times.
+  SITUATION: Fixing my neck tie makes our team win the game
+  SYMPTOM: OCD
+Story: As I prepared for yet another crucial game, my palms became clammy, an all-too-familiar
+  sensation. Standing before the team, the weight of the looming match bore down on
+  me, but an even more pressing battle waged within. In my head, an incessant whisper
+  urged, "Adjust your neck-tie, or doom awaits." It wasn't just fabric and knots;
+  it was a talisman, warding off defeat and disaster. So, there I stood, meticulously
+  fixing my tie four times, clinging to the belief that this ritual would steer us
+  towards victory, my heart racing with every adjustment.
+Story_translated: null
+Summary: Before a crucial game, the speaker feels the weight of the impending match
+  and battles internal superstitions, believing their neck-tie, adjusted four times
+  as a ritual, acts as a talisman against defeat. This meticulous act is a desperate
+  hope for victory, revealing the speaker's nervousness and reliance on this routine
+  for confidence.

@@ -1,0 +1,33 @@
+API_input:
+  model: gpt-4-0125-preview
+  temperature: 1
+Input:
+  AUTOMATIC_THOUGHT: I am back in the war zone, and my life is in imminent danger.
+  DESCRIPTION: While enjoying the evening outside, the person experiences a severe
+    panic attack triggered by fireworks, which remind them of their traumatic experiences
+    in a war zone. Mistaking the fireworks for actual danger, they become overwhelmed
+    with fear and panic, feeling the urge to find cover, despite being safe in their
+    own neighborhood. This reaction highlights the lasting impact of their trauma.
+  PATIENT_AGE: '40'
+  PATIENT_GENDER: Male
+  PATIENT_OCCUPATION: Airplane_caption
+  REACTION: I experience panic attacks, feel a need to escape, and sometimes find
+    myself acting defensively.
+  SITUATION: After returning from military service, loud noises such as fireworks
+    trigger an immediate sense of danger.
+  SYMPTOM: PTSD
+Story: As I stood outside, enjoying the crisp evening air, a sudden burst of fireworks
+  pierced the sky, splintering the tranquility. Instantly, my heart clenched, terror
+  gripping me with an iron fist as vivid images of the war zone flooded my mind. I
+  could almost smell the gunpowder, feel the chaos around me, convinced that my life
+  was under immediate threat. Panic surged through my veins as I frantically looked
+  around for cover, my body reacting before my mind could grasp that I was no longer
+  in the battlefield but rather miles away, in the safety of my own neighborhood.
+  The familiar sense of needing to escape enveloped me, my hands trembling as I struggled
+  to remind myself that I was home, far from the dangers of war.
+Story_translated: null
+Summary: While enjoying the evening outside, the person experiences a severe panic
+  attack triggered by fireworks, which remind them of their traumatic experiences
+  in a war zone. Mistaking the fireworks for actual danger, they become overwhelmed
+  with fear and panic, feeling the urge to find cover, despite being safe in their
+  own neighborhood. This reaction highlights the lasting impact of their trauma.

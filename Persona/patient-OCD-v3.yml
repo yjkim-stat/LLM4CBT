@@ -1,0 +1,40 @@
+API_input:
+  model: gpt-4-0125-preview
+  temperature: 1
+Input:
+  AUTOMATIC_THOUGHT: If I don't wash my hands precisely 20 times, something terrible
+    will happen.
+  DESCRIPTION: The person experiences an overwhelming compulsion to wash their hands
+    exactly 20 times every morning due to a belief that not doing so will cause a
+    catastrophic event. This ritual dominates their morning routine, causing significant
+    anxiety and disruption. Despite the urgency of other commitments, the fear of
+    not completing the ritual perfectly forces them to restart the count if interrupted,
+    leading to a cycle of washing and counting that serves as both a source of distress
+    and a misguided comfort.
+  PATIENT_AGE: '40'
+  PATIENT_GENDER: Male
+  PATIENT_OCCUPATION: Office_worker
+  REACTION: I continuously wash my hands until I've counted to 20, feeling anxious
+    if interrupted.
+  SITUATION: I must wash my hands exactly 20 times to ensure they are clean.
+  SYMPTOM: OCD
+Story: 'Every morning, as I get ready for work, my mind spins with an unshakeable
+  thought: if I don''t wash my hands precisely 20 times, a catastrophic event will
+  ensue. This conviction has me anchored to the sink, meticulously counting each wash,
+  ensuring that not a single attempt falls short of perfection. The simple act of
+  washing, which most breeze through, morphs into an intense ritual for me, with the
+  cold faucet handle and the scent of soap becoming all too familiar comforts in a
+  world of chaos. If I''m ever interrupted before reaching that crucial number, panic
+  clenates its fist around my heart, urging me to restart the count, no matter the
+  pressing demands of my job or the ticking clock. This relentless cycle of washing
+  and counting dominates my mornings, leaving me ensnared in a web of anxiety that
+  I''m perpetually trying to escape, but somehow, paralyzed by fear, I find solace
+  in the ritual, convinced it''s the thin line between safety and disaster.'
+Story_translated: null
+Summary: The person experiences an overwhelming compulsion to wash their hands exactly
+  20 times every morning due to a belief that not doing so will cause a catastrophic
+  event. This ritual dominates their morning routine, causing significant anxiety
+  and disruption. Despite the urgency of other commitments, the fear of not completing
+  the ritual perfectly forces them to restart the count if interrupted, leading to
+  a cycle of washing and counting that serves as both a source of distress and a misguided
+  comfort.

@@ -1,0 +1,31 @@
+API_input:
+  model: gpt-4-0125-preview
+  temperature: 1
+Input:
+  AUTOMATIC_THOUGHT: I am going to fail and everyone will think I am incompetent.
+  DESCRIPTION: The speaker is lying awake at night, anxious about starting a new job
+    as an artist. Despite their efforts to rest, fears of criticism and failure plague
+    their mind, diminishing their confidence and amplifying the pressure they feel.
+    This anxiety leads to a restless night filled with worries about not meeting expectations
+    and potentially undermining their hard work.
+  PATIENT_AGE: '40'
+  PATIENT_GENDER: Female
+  PATIENT_OCCUPATION: Artist
+  REACTION: I spend the night tossing and turning, imagining all possible scenarios
+    where things go wrong.
+  SITUATION: I am about to start a new job tomorrow.
+  SYMPTOM: GAD
+Story: Lying wide-eyed in the darkness, the clock's relentless ticking seemed to echo
+  my racing heartbeats. Tomorrow marked not just a new day, but the dawn of my new
+  job, a canvas for my career as an artist yet untouched. Each attempt to close my
+  eyes ushered in vivid imaginations of criticism and failure, painting my confidence
+  with shades of doubt. The weight of expectations felt like a heavy brush loaded
+  with the darkest inks, ready to blot out what I had worked so hard to achieve. Surrendering
+  to the anxiety, I found myself ensnared in a restless vigil, haunted by the phantom
+  of incompetency that threatened to overshadow my debut into the new role.
+Story_translated: null
+Summary: The speaker is lying awake at night, anxious about starting a new job as
+  an artist. Despite their efforts to rest, fears of criticism and failure plague
+  their mind, diminishing their confidence and amplifying the pressure they feel.
+  This anxiety leads to a restless night filled with worries about not meeting expectations
+  and potentially undermining their hard work.

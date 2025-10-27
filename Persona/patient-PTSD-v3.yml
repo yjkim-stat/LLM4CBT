@@ -1,0 +1,31 @@
+API_input:
+  model: gpt-4-0125-preview
+  temperature: 1
+Input:
+  AUTOMATIC_THOUGHT: I'm in immediate danger, and something terrible is about to happen.
+  DESCRIPTION: While walking peacefully down a street, the sound of a loud bang immediately
+    transported the narrator back to their traumatic experiences in a war zone. Panic
+    and fear took over, making them perceive every shadow and sound as potential threats,
+    reminiscent of their past surrounded by conflict and gunfire.
+  PATIENT_AGE: '30'
+  PATIENT_GENDER: Female
+  PATIENT_OCCUPATION: Driver
+  REACTION: My heart races, I start sweating, and I look for a place to hide, feeling
+    intense fear and anxiety.
+  SITUATION: While walking down the street, I suddenly heard a loud bang that reminded
+    me of gunfire I experienced while serving in a conflict zone.
+  SYMPTOM: PTSD
+Story: As I strolled down the peaceful street, the tranquility shattered with a piercing
+  bang, thrusting me instantly back into the grips of a war-torn past. My breath hitched,
+  panic surged through my veins, with my thoughts spiraling uncontrollably into certainty
+  that danger was imminent, lurking around every corner. Instinctively, my eyes darted
+  for an escape, seeking refuge from the unseen threat, as my heart pounded a frantic
+  rhythm against my chest. The world seemed to shrink to a pinpoint of terror, echoing
+  with the sound of gunfire that once dominated my days. In that moment, every shadow
+  morphed into a potential adversary, and every sound was a call to arms, binding
+  me once again in the invisible chains of my memories.
+Story_translated: null
+Summary: While walking peacefully down a street, the sound of a loud bang immediately
+  transported the narrator back to their traumatic experiences in a war zone. Panic
+  and fear took over, making them perceive every shadow and sound as potential threats,
+  reminiscent of their past surrounded by conflict and gunfire.

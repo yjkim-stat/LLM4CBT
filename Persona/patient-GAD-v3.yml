@@ -1,0 +1,34 @@
+API_input:
+  model: gpt-4-0125-preview
+  temperature: 1
+Input:
+  AUTOMATIC_THOUGHT: I'm going to lose my job because I'm not competent enough.
+  DESCRIPTION: A 20-year-old female movie director is struggling with deep-seated
+    insecurities about her job competency, despite no evidence of failure. This fear
+    of not being good enough leads her to obsess over every minor detail and constantly
+    doubt her abilities, putting immense pressure on herself to be perfect. This cycle
+    of anxiety and self-doubt is affecting her peace and sleep, making every day a
+    challenging battle against her fears of inadequacy.
+  PATIENT_AGE: '20'
+  PATIENT_GENDER: Female
+  PATIENT_OCCUPATION: Moview_director
+  REACTION: I overwork, triple-check my tasks, and have trouble sleeping due to anxiety.
+  SITUATION: I am constantly worried about making mistakes at work even when there's
+    no indication of trouble.
+  SYMPTOM: GAD
+Story: 'As a 20-year-old female movie director, I find myself drowned in the ocean
+  of my insecurities, particularly at work. Each day, despite no obvious signs of
+  failure, a persistent thought haunts me: "I''m going to lose my job because I''m
+  not competent enough." This fear grips me so strongly that I overcompensate by obsessing
+  over minor details, triple-checking every task as if my life depends on it. The
+  pressure I put on myself to be flawless has stolen my peace, leaving me tossing
+  and turning at night, haunted by the possibility of mistakes that have yet to occur.
+  It''s an exhausting cycle, driven by anxiety, that makes each workday a battle against
+  my own pervasive fears of inadequacy.'
+Story_translated: null
+Summary: A 20-year-old female movie director is struggling with deep-seated insecurities
+  about her job competency, despite no evidence of failure. This fear of not being
+  good enough leads her to obsess over every minor detail and constantly doubt her
+  abilities, putting immense pressure on herself to be perfect. This cycle of anxiety
+  and self-doubt is affecting her peace and sleep, making every day a challenging
+  battle against her fears of inadequacy.

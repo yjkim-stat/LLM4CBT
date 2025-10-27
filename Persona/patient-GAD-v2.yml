@@ -1,0 +1,28 @@
+API_input:
+  model: gpt-4-0125-preview
+  temperature: 1
+Input:
+  AUTOMATIC_THOUGHT: I'll never get everything done, and everyone will see me as a
+    failure.
+  DESCRIPTION: Sitting at a desk surrounded by textbooks and a cluttered calendar,
+    the individual feels overwhelmed by deadlines and personal commitments, fearing
+    failure and struggling to focus. This leads to feelings of defeat and being trapped
+    by their own expectations.
+  PATIENT_AGE: '20'
+  PATIENT_GENDER: Male
+  PATIENT_OCCUPATION: Student
+  REACTION: I started to feel overwhelmed, my heart rate increased, and I couldn't
+    concentrate on my tasks.
+  SITUATION: I was thinking about my upcoming work deadlines and personal commitments.
+  SYMPTOM: GAD
+Story: 'As I sat at my desk, surrounded by a mountain of textbooks and a cluttered
+  calendar, the thought crippled me: "I''ll never get everything done, and everyone
+  will see me as a failure." The mere idea of my looming deadlines and personal commitments
+  cast a heavy shadow over me. With each tick of the clock, my heart raced faster,
+  drowning in a sea of overwhelm. Try as I might, my mind became a battlefield where
+  focus was the first casualty. In this moment, I felt utterly defeated, a prisoner
+  of my own expectations.'
+Story_translated: null
+Summary: Sitting at a desk surrounded by textbooks and a cluttered calendar, the individual
+  feels overwhelmed by deadlines and personal commitments, fearing failure and struggling
+  to focus. This leads to feelings of defeat and being trapped by their own expectations.

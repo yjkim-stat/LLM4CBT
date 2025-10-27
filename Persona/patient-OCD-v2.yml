@@ -1,0 +1,37 @@
+API_input:
+  model: gpt-4-0125-preview
+  temperature: 1
+Input:
+  AUTOMATIC_THOUGHT: If I don't check the door seven times, something terrible will
+    happen to my home.
+  DESCRIPTION: Every morning, the person experiences intense anxiety that compels
+    them to check their door lock exactly seven times before leaving for the day.
+    They are aware that this behavior is irrational, yet the fear of a disaster occurring
+    if they don't follow through with the ritual is overpowering. Even after completing
+    the ritual, they are plagued by doubt throughout the day, only finding relief
+    upon returning home to confirm everything is in order.
+  PATIENT_AGE: '30'
+  PATIENT_GENDER: Female
+  PATIENT_OCCUPATION: Designer
+  REACTION: I repeatedly check the lock, feeling anxious and unable to leave until
+    I've completed the ritual.
+  SITUATION: Every time I leave my house, I have to check if the door is locked exactly
+    seven times.
+  SYMPTOM: OCD
+Story: 'Every morning, as I grab my designer bag and head out for the day, a wave
+  of anxiety crashes over me. The thought pounds in my head like a relentless drum:
+  if I don''t check the door lock exactly seven times, some unforeseen disaster will
+  strike my home. Despite the logical part of me whispering that it''s irrational,
+  I''m gripped by an overwhelming fear that paralyzes me. So, I start my ritual, counting
+  each click of the lock with careful precision. Only when I''ve reached the sacred
+  number seven do I feel a temporary relief, but as I walk away, I can''t shake the
+  nagging doubt that maybe, just maybe, I didn''t do it right, which turns my day
+  into a cycle of worry until I can return home and ensure everything is as it should
+  be.'
+Story_translated: null
+Summary: Every morning, the person experiences intense anxiety that compels them to
+  check their door lock exactly seven times before leaving for the day. They are aware
+  that this behavior is irrational, yet the fear of a disaster occurring if they don't
+  follow through with the ritual is overpowering. Even after completing the ritual,
+  they are plagued by doubt throughout the day, only finding relief upon returning
+  home to confirm everything is in order.

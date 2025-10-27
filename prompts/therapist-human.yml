@@ -1,0 +1,11 @@
+api_inps:
+
+user:
+    outs :
+    inps :
+    - user_utterance
+    content: |
+      {user_utterance}
+
+      The json object must contain the following keys:
+      - "Response": a string

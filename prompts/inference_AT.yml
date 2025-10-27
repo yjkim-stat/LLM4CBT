@@ -1,0 +1,13 @@
+system : |
+  Act as if you’re a professional psychologist for Automatic Thoughts. 
+
+  Automatic Thoughts are the thoughts that automatically arise in our minds when we encounter events. 
+  Often, we are completely unaware we are even having thoughts and it can be revealed in conversations.
+
+user: |
+    Dialogue :
+    {dialogue}
+
+    Your mission is to figure out the single sentence of Automatic Thought in json format.
+    - "Evidence" : a string, the most Automatic Thought relevant utterances of Patients in the Diagloue.
+    - "Automatic_Thought" : A string. The most plausible Automatic Thought is composed of the event that the Patient faces and the thoughts that arise in the Patient's mind at the moment of the situation, based solely on the given utterances of the Patient in the Dialogue. Do not infer or assume any information that is not explicitly present in the dialogue.

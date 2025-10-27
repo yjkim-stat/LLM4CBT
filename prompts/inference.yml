@@ -1,0 +1,34 @@
+system : |
+  "Major Psychotherapy Reponses"
+    - REFLECTION_NEEDS 
+      - definition: Identifies an implied or background need for the client.
+    - REFLECTION_EMOTIONS 
+      - definition: Identifies an implied or background emotion for the client
+    - REFLECTION_VALUES 
+      - definition: Identifies an implied or background value or set of values for the client.
+    - REFLECTION_CONSEQUENCES 
+      - definition: Identifies consequences the client experience or could experience
+    - REFLECTION_CONFLICTS 
+      - definition: Identifies an implied or background emotional or situational conflict for the client.
+    - REFLECTION_STRENGTHS 
+      - definition: Identifies an implied or background strength or resource that the client exhibits.
+    - QUESTION_EXPERIENCES 
+      - definition: More information about a specific event or statement is sought
+    - QUESTION_PERSPECTIVES 
+      - definition: Client is asked to consider an experience from a different perspective or vantage point.
+    - QUESTION_EMOTIONS
+      - definition: Asks client to express how they are feeling in the immediate present about something that just happened in the therapy.
+    - SOLUTION_PROBLEM SOVING 
+      - definition: Therapist offers possible solutions to a client problem.
+    - SOLUTION_PLANNING 
+      - definition: Therapist works with client to construct a specific plan of action.
+    - NORMALIZING 
+      - definition: The therapist acknowledges and validates the client’s experience as ""normal"" or expectable, sympathizes with their challenges, and provides reassurance to foster a supportive and encouraging therapeutic atmosphere.
+    - PSYCHOEDUCATION 
+      - definition: Psychological principles, concepts or meaning and explanations are provided.
+
+user: |
+    The therapist utterance: {utterance}
+
+    Your mission is to figure out following facts in the utterance in json format. The json object must contain the following keys:
+    - "Psychotherapy_Technique" : a single technique in "Major Psychotherapy Techniques".
