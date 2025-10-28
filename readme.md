@@ -1,12 +1,34 @@
-# Installation
+# LLM4CBT: Aligning Large Language Models for Cognitive Behavioral Therapy
 
-```
+**Official Reference Implementation** for  
+📄 [*Kim et al., "Aligning Large Language Models for Cognitive Behavioral Therapy: A Proof-of-Concept Study,"* Frontiers in Psychiatry (2025)](https://doi.org/10.3389/fpsyt.2025.1583739)
+
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://doi.org/10.3389/fpsyt.2025.1583739)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+---
+
+## 🧠 Overview
+
+**LLM4CBT** provides a simulation environment for evaluating and aligning large language models (LLMs) to principles of **Cognitive Behavioral Therapy (CBT)**.  
+The framework enables controlled, reproducible **clinical communication simulations** between virtual patients and AI-based therapists.
+
+---
+
+## ⚙️ Installation
+
+To set up the environment:
+
+```bash
 conda create -n llm4cbt python=3.10
 conda activate llm4cbt
 pip install openai==0.28 pandas numpy transformers torch sentencepiece accelerate
-```
+````
 
-## Clinical communication simulation
+---
+
+## 💬 Clinical Communication Simulation
+
+Run the main clinical conversation simulation with:
 
 ```bash
 python run_clinical_conversation.py \
@@ -15,23 +37,36 @@ python run_clinical_conversation.py \
     --output_dir ./outputs/clinical
 ```
 
-* `--scenario_id`를 지정하면 단일 시나리오만 실행할 수 있습니다.
-* `--turn_limit` 및 `--memory_turns` 옵션으로 기본 설정을 덮어쓸 수 있습니다.
+### Optional Arguments
 
-시뮬레이션 결과는 각 시나리오별 디렉터리에 저장되며, 다음과 같은 산출물을 제공합니다.
-
-* `transcript.md` – 턴 순서에 따른 대화 로그
-* `turns.csv` – 각 턴의 세부 메타데이터 테이블
-* `artifacts/turn_XX_<speaker>.json` – 해당 턴을 생성할 때 사용된 변수 스냅샷, API 요청 메시지, 완전한 출력 정보를 포함한 개별 아티팩트
-* `artifacts_index.json` – 아티팩트 파일과 기본 컨텍스트를 요약한 인덱스
+| Argument         | Description                                                 |
+| ---------------- | ----------------------------------------------------------- |
+| `--scenario_id`  | Run a single scenario by ID instead of all configured cases |
+| `--turn_limit`   | Override the default number of conversation turns           |
+| `--memory_turns` | Override memory window size for contextual recall           |
 
 ---
 
-# How to Cite
+## 📁 Output Structure
 
-## Original Paper
+Simulation outputs are organized by scenario under the specified output directory.
 
-```
+| File                               | Description                                                                    |
+| ---------------------------------- | ------------------------------------------------------------------------------ |
+| `transcript.md`                    | Full conversation transcript in turn-by-turn order                             |
+| `turns.csv`                        | Detailed metadata for each conversational turn                                 |
+| `artifacts/turn_XX_<speaker>.json` | Per-turn artifacts containing API inputs, variable states, and raw completions |
+| `artifacts_index.json`             | Index summarizing artifacts and base context used during simulation            |
+
+---
+
+## 📚 Citation
+
+If you use **LLM4CBT** in your research, please cite both the paper and this implementation repository.
+
+### 📝 Original Paper
+
+```bibtex
 @article{kim2025aligning,
   title={Aligning large language models for cognitive behavioral therapy: a proof-of-concept study},
   author={Kim, Yejin and Choi, Chi-Hyun and Cho, Selin and Sohn, Jy-yong and Kim, Byung-Hoon},
@@ -43,8 +78,9 @@ python run_clinical_conversation.py \
 }
 ```
 
-## Implementation Repository
-```
+### 💻 Implementation Repository
+
+```bibtex
 @software{kim2025llm4cbt,
   author       = {Kim, Yejin and Choi, Chi-Hyun and Cho, Selin and Sohn, Jy-yong and Kim, Byung-Hoon},
   title        = {LLM4CBT: Reference Implementation for "Aligning Large Language Models for Cognitive Behavioral Therapy"},
@@ -55,3 +91,10 @@ python run_clinical_conversation.py \
   note         = {GitHub repository implementing the methods described in Kim et al. (2025), *Frontiers in Psychiatry*}
 }
 ```
+
+---
+
+## 🧩 Acknowledgments
+
+This work was conducted by the **Intelligent Technology and Machine Learning (ITML) Lab**,
+**Yonsei University**, Seoul, Korea.
